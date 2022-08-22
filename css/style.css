@@ -1,0 +1,9 @@
+html {
+    background-color: #E4EAEA;
+}
+
+header {
+    background-color: #003257;
+    justify-content: flex-start;
+    color: aliceblue;
+}
