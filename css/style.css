@@ -101,13 +101,83 @@ button [submit]{
     html {
         background-color: #E4EAEA;  /*Background color*/
     }
+
+
+
+    header {    /*color of the banner, text color, text decoration*/
+        background-color: #003257;
+        padding: 1em;
+    }
+    
+        /*Dr.B text color, removes text-decoration from link*/
+    header h1,a{
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: .25em;
+        padding-left: .5em;
+    }
+
+    /*To reflect clinic will replace with logo*/
+    header a:hover{color: #A3C3DC;}
+    
+    nav {
+        background-color: #003257;
+        text-align: right;
+        width: 100%;
+        padding-bottom: .5em;
+    }
+    
+    nav a{
+        text-decoration: none;
+        padding: 1em;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    nav a:hover{text-decoration: none;color: #A3C3DC;}
 }
 
 /*Mobile Screen*/
 @media (max-width:600px){ 
-    
+
     html {
         background-color: #E4EAEA;  /*Background color*/
     }
+
+
+
+    header {    /*color of the banner, text color, text decoration*/
+        background-color: #003257;
+        padding: 0.5em;
+    }
+    
+        /*Dr.B text color, removes text-decoration from link*/
+    header h1,a{
+        text-decoration: none;
+        color: aliceblue;
+        padding-bottom: .25em;
+        padding-left: .5em;
+    }
+
+    /*To reflect clinic will replace with logo*/
+    header a:hover{color: #A3C3DC;}
+    
+    nav {
+        background-color: #003257;
+        text-align: right;
+        width: 100%;
+        padding-bottom: .5em;
+    }
+    
+    nav a{
+        text-decoration: none;
+        padding: 1em;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    nav a:hover{text-decoration: none;color: #A3C3DC;}
 
 }
