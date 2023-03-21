@@ -33,6 +33,7 @@ button [submit]{
     header {    /*color of the banner, text color, text decoration*/
         background-color: #003257;
         padding: 1em;
+        /* Padding-bottom */
     }
     
         /*Dr.B text color, removes text-decoration from link*/
@@ -78,6 +79,7 @@ button [submit]{
     .section p{
         font-size: 1.5em;
         margin-right: 4em;
+        margin-left: 1em;
     }
 
 
@@ -122,14 +124,14 @@ button [submit]{
     
     nav {
         background-color: #003257;
-        text-align: right;
+        text-align: center;
         width: 100%;
         padding-bottom: .5em;
     }
     
     nav a{
         text-decoration: none;
-        padding: 1em;
+        padding: 0.1em;
         color: aliceblue;
         font-weight: bold;
         font-size: 1.5em;
