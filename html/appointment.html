@@ -22,9 +22,7 @@
         </nav>
 
         <main>
-
             <h2>Make an Appointment Today!</h2>
-
         <!--
             removal of the spleen
             squish squish
@@ -39,6 +37,9 @@
             x-ray
         -->
             <form>
+                <label>First Name:</label><input type="text" required>
+                <label>Last Name:</label><input type="text" required>
+                <label>Email:</label><input type="email" required>
                 <label>Appointment Date:</label><input type="date" required>
                 <label>Select Procedure:</label>
                 <select id="procedures" name="Procedures">  <!--List of procedures.-->
@@ -53,7 +54,13 @@
                     <option value="Haircut">Haircut</option>
                     <option value="Bald">Bald</option>
                     <option value="X-Ray">X-Ray</option>
+                    <option value="Isaiah Special">Isaiah Special</option>
+                    <option value="Music Stand">Music Stand</option>
+                    <option value="Addition of a Bread">Addition of a Bread</option>
+                    
                 </select>
+                <label>Additional Notes:</label>
+                <textarea placeholder="Notes"></textarea>
                 <input type="submit" value="Apply Now">
             </form>
         </main>
