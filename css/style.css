@@ -1,3 +1,7 @@
+/* type one */
+body {
+    margin: 0; /*This allows for the header to fully extend horizontal.*/
+}
 
 form {
     background: linear-gradient(46deg, #A3C3DC, #003257);
@@ -83,6 +87,9 @@ button [submit]{
         margin-left: 1em;
     }
 
+    .sectiont {
+
+    }
 
     /*Footer in charge of the copy right along with socials, and more links*/
     footer {
@@ -96,7 +103,6 @@ button [submit]{
 
     }
 }
-
 
 /*These sections will get updated once main Full Screen website is constructed.*/
 @media (min-width:600px) and (max-width:1023px){
@@ -168,7 +174,7 @@ button [submit]{
     
     nav {
         background-color: #003257;
-        text-align: right;
+        text-align: center;
         width: 100%;
         padding-bottom: .5em;
     }
