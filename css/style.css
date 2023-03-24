@@ -4,7 +4,7 @@ body {
 }
 
 form {
-    background: linear-gradient(46deg, #A3C3DC, #003257);
+    /* background: linear-gradient(46deg, #A3C3DC, #003257); */
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,11 @@ button [submit]{
         margin-left: .5em;
     }
 
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+
     .section {
         display: flex;
         justify-content: space-between;
@@ -84,10 +89,10 @@ button [submit]{
     .section p{
         font-size: 1.5em;
         margin-right: 4em;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 
-    .sectiont {
+    .section h{
 
     }
 
