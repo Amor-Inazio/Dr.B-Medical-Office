@@ -1,3 +1,3 @@
 # Dr.B-Medical-Office
 
-### The Medical Office were we take care of your needs.
+### The Medical Office where we take care of your needs.
